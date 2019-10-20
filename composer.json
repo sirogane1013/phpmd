@@ -34,9 +34,15 @@
     "irc": "irc://irc.freenode.org/phpmd"
   },
   "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/sirogane1013/pdepend"
+    }
+  ],
   "require": {
     "php": ">=5.3.9",
-    "pdepend/pdepend": "^2.5",
+    "pdepend/pdepend": "dev-master",
     "ext-xml": "*",
     "composer/xdebug-handler": "^1.0"
   },
